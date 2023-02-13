@@ -1,0 +1,13 @@
+.weather-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.weather-frame {
+    width: 277px;
+    height: 237px;
+    margin: 10px;
+    border: 0;
+    background-color: transparent;
+}
