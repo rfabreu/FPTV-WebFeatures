@@ -1,0 +1,41 @@
+.programs {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.program {
+    margin: 20px;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    flex: 1;
+}
+
+.program img {
+    width: 100%;
+    border: 1px solid black;
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+.program-bio {
+    padding: 25px;
+    line-height: 1.3;
+}
+
+.program-bio h3 {
+    font-size: 28px;
+    color: #626262;
+}
+
+.program-bio h4 {
+    font-weight: lighter;
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #626262;
+}
+
+.program-bio p {
+    font-size: 17px;
+}
