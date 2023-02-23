@@ -1,13 +1,35 @@
+/* DEVELOPED AND IMPLEMENTED BY RAFAEL ABREU
+CONNECT VIA LINKEDIN AT (https://www.linkedin.com/in/rafael-a-gomes/) OR GITHUB AT (https://github.com/rfabreu) */
+
 .weather-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-radius: 10px;
+}
+
+.glassmorphism-effect {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.1), inset 0 0 4px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 2px;
+    padding: 20px;
 }
 
 .weather-frame {
     width: 277px;
     height: 237px;
     margin: 10px;
-    border: 0;
-    background-color: transparent;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .weather-container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
